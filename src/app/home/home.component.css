@@ -1,0 +1,52 @@
+.masthead {
+    height: 70vh;
+   min-height: 200px;
+   background-image: url('../../assets/img/creativecity.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+ .btn-success {
+   /* font-family: Raleway-SemiBold; */
+   font-size: 13px;
+   color: #fff;
+   letter-spacing: 1px;
+   line-height: 15px;
+   border: 2px solid rgba(103, 192, 103, 0.75);
+   border-radius: 40px;
+   background: transparent;
+   transition: all 0.3s ease 0s;
+ }
+ 
+ .btn-success:hover {
+   color: #FFF;
+   background: rgb(103, 192, 103, 0.75);
+   border: 2px solid rgb(103, 192, 103, 0.75);
+ }
+
+ .vl {
+   border-left: 3px solid rgb(103, 105, 103);
+   height: 150px;
+   position: absolute;
+   left: 50%;
+   margin-left: -4px;
+   top: 0;
+ }
+
+ .container .content {
+   position: absolute; /* Position the background text */
+   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+   
+   
+   color: yellow; /* Grey text */
+   
+   padding: 20px; /* Some padding */
+   font-style: italic;
+   
+ }
+  @media (min-width: 1200px){
+   .fixed-sn main {
+     margin-left: 20% !important;
+     margin-right: 20% !important;
+   }
+   } 
